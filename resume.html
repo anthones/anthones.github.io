@@ -1,0 +1,600 @@
+<!doctype html>
+<html>
+	<head>
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+	
+	<title>Antonie Dimovski</title>
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
+	
+	<style type="text/css">
+	@import url(
+	https://fonts.googleapis.com/css?family=Lato:400,700
+);
+body {
+	background: #fff;
+	font-family: Lato, sans-serif;
+	margin: 0 0 80px;
+}
+a {
+	color: #2ecc71;
+}
+a:focus,
+a:hover {
+	color: #f1c40f;
+	text-decoration: none;
+}
+p {
+	line-height: 1.5;
+	margin: 0;
+}
+p + p {
+	margin-top: 10px;
+}
+h1,
+h2,
+h3,
+h4 {
+	margin-top: 0
+}
+section {
+	margin-top: 30px;
+}
+li {
+	line-height: 1.8;
+	list-style: none;
+}
+li:before {
+	content: "\f052";
+	float: left;
+	font: 13px Octicons;
+	margin-top: 6px;
+	margin-left: -20px;
+	opacity: .1;
+	position: absolute;
+}
+blockquote {
+	border-left: 5px solid #e7e9ec;
+	font-size: 14px;
+}
+em {
+	color: #95a5a6;
+	font-weight: normal;
+	font-style: normal;
+}
+h4 span:first-child {
+	color: #000;
+	font-weight: bold;
+}
+.container {
+	max-width: 750px;
+	padding: 0 30px;
+}
+.col-sm-6 {
+	margin-bottom: 10px;
+}
+.col-sm-12 h4 {
+	margin-top: 12px; 
+}
+.col-sm-12 + .col-sm-12 {
+	margin-top: 30px;
+}
+#header {
+	background: #f4f6f6;
+	padding: 50px 0;
+	margin-bottom: 30px;
+}
+#header h2 {
+	color: #95a5a6;
+	font-size: 24px;
+}
+#content h3 {
+	color: #f1c40f;
+	font-size: 26px;
+	margin-top: -4px;
+}
+#content aside {
+	text-align: right;
+	padding-right: 30px;
+}
+#profiles .network {
+	text-transform: capitalize;
+}
+#work .position,
+#volunteer .position {
+	font-weight: bold;
+	margin-bottom: 8px;
+}
+#education .area {
+	font-weight: bold;
+}
+#education .area:before {
+	content: "\f0d7";
+	font: 16px Octicons;
+	margin-right: 6px;
+}
+#education .studyType {
+	margin-left: 25px;
+}
+#awards .summary,
+#publications .summary {
+	margin-top: 8px;
+}
+#publications .website a:before {
+	content: attr(href);
+}
+
+@media (min-width: 480px) {
+	.strike-through {
+		border-top: 1px solid #f4f6f6;
+		height: 20px;
+		margin-top: 12px;
+		margin-bottom: -2px;
+		position: relative;
+	}
+	.strike-through span,
+	.strike-through a {
+		background: #fff;
+		position: absolute;
+	}
+	.strike-through span:first-child {
+		padding-right: 20px;
+		margin-top: -12px;
+	}
+	.strike-through span + span {
+		font-size: 14px;
+		margin-top: -10px;
+		padding-left: 20px;
+		right: 0;
+	}
+}
+@media (max-width: 768px) {
+	.col-sm-6:last-child {
+		margin-bottom: 0px;
+	}
+	#content aside {
+		margin-bottom: 20px;
+		padding-right: 0;
+		text-align: left;
+	}
+	#publications .website a:before {
+		content: "View publication";
+	}
+}
+@media (max-width: 480px) {
+	h1 {
+		font-size: 26px;
+	}
+	.date {
+		font-size: 14px;
+		margin-bottom: 5px;
+	}
+	.strike-through span:first-child {
+		margin-bottom: 7px;
+	}
+	.strike-through span {
+		display: block;
+	}	
+	#header {
+		margin-bottom: 10px;
+		padding: 40px 0;
+	}
+	#actions {
+		display: none;
+	}
+}
+
+	</style>
+	
+	</head>
+	<body>
+	
+	<header id="header">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-9 col-sm-push-3">
+					<h1>
+						Antonie Dimovski
+					</h1>
+					<h2>
+						Full Stack Web Developer
+					</h2>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div id="content" class="container">
+
+	<section id="contact" class="row">
+		<aside class="col-sm-3">
+			<h3>Contact</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<strong>Email</strong>
+				<div class="email">antoniedimovski@gmail.com</div>
+			</div>
+			<div class="col-sm-6">
+				<strong>Phone</strong>
+				<div class="phone">+389 74 605 432</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	<section id="about" class="row">
+		<aside class="col-sm-3">
+			<h3>About</h3>
+		</aside>
+		<div class="col-sm-9">
+			<p>I&#x27;m a full stack developer providing value to both large enterprises and startups in the form of complete front-end and back-end web solutions.</p>
+		</div>
+	</section>
+	<section id="profiles" class="row">
+		<aside class="col-sm-3">
+			<h3>Profiles</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+				<div class="col-sm-6">
+					<strong class="network">
+						Linkedin
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="https://www.linkedin.com/in/antoniedimovski/">antoniedimovski</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<strong class="network">
+						GitHub
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="https://github.com/anthones">anthones</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="work" class="row">
+		<aside class="col-sm-3">
+			<h3>Work</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Symphony Solutions</span>
+					<span class="date">
+						2019-01-01 — 
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="https://www.symphony-solutions.eu/">https://www.symphony-solutions.eu/</a>
+				</div>
+				<div class="position">
+					Full Stack Web Developer
+				</div>
+				<div class="summary">
+					<p>Developing and maintaining new and existing web assets. Both internal and external</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Started one project (SPA) from scratch</li>
+					<li class="bullet">Tech lead of a team of four.</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Seavus Group</span>
+					<span class="date">
+						2017-08-01 — 2019-01-01
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="https://seavus.com/">https://seavus.com/</a>
+				</div>
+				<div class="position">
+					Full Stack Web Developer
+				</div>
+				<div class="summary">
+					<p>Big enterprise project in the insurance industry. Working in a four person team focused on building and maintaining a complex hybrid mobile app.</p>
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Born2Invest</span>
+					<span class="date">
+						2017-04-01 — 2017-08-01
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="https://born2invest.com/">https://born2invest.com/</a>
+				</div>
+				<div class="position">
+					Full Stack Web Developer
+				</div>
+				<div class="summary">
+					<p>Developing new end to end features for and maintaining the born2invest.com website</p>
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Upwork</span>
+					<span class="date">
+						2015 — 2017
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="https://upwork.com/">https://upwork.com/</a>
+				</div>
+				<div class="position">
+					Front End Developer
+				</div>
+				<div class="summary">
+					<p>My beginnings as a web developer. Mostly doing front-end fixes and developments for static and WordPress sites. Development of a few full-scale sites using WordPress. Learning to communicate with clients, negotiating, estimating to get the job done.</p>
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	
+	<section id="education" class="row">
+		<aside class="col-sm-3">
+			<h3>Education</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>St. Cyril and Methodius University of Skopje</span>
+					<span class="date">
+						2009-09-01 — 2014-07
+					</span>
+				</h4>
+				<div class="area">
+					Intellectual Law
+				</div>
+				<div class="studyType">
+					Master of Law LL.M
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	
+	<section id="awards" class="row">
+		<aside class="col-sm-3">
+			<h3>Awards</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Oracle Certified Associate, Java SE 7 Programmer</span>
+				</h4>
+				<div class="date pull-right">
+					<em>Awarded</em>
+					2016-09
+				</div>
+				<div class="awarder">
+					<em>by</em>
+					<strong>Oracle</strong>
+				</div>
+				<div class="summary">
+					Certificate for passing the exam for Oracle Certified Associate, Java SE 7 Programmer.
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>BULATS Business English assessment</span>
+				</h4>
+				<div class="date pull-right">
+					<em>Awarded</em>
+					2017-04
+				</div>
+				<div class="awarder">
+					<em>by</em>
+					<strong>British Council</strong>
+				</div>
+				<div class="summary">
+					Certificate for obtaining CEFR level C2 on the BULATS exam from British Council.
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	
+	
+	<section id="skills" class="row">
+		<aside class="col-sm-3">
+			<h3>Skills</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Web development</h4>
+				</div>
+				<ul class="keywords">
+					<li>HTML5</li>
+					<li>CSS3</li>
+					<li>SASS</li>
+					<li>XML</li>
+					<li>PHP</li>
+					<li>Golang</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>JavaScript</h4>
+				</div>
+				<ul class="keywords">
+					<li>ES6</li>
+					<li>ES7</li>
+					<li>TypeScript</li>
+					<li>Backbone</li>
+					<li>Vue</li>
+					<li>Webpack</li>
+					<li>Axios</li>
+					<li>Lodash</li>
+					<li>Ramda</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>React.js</h4>
+				</div>
+				<ul class="keywords">
+					<li>Redux</li>
+					<li>Router</li>
+					<li>Hooks</li>
+					<li>Babel</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Node.js</h4>
+				</div>
+				<ul class="keywords">
+					<li>npm</li>
+					<li>Express.js</li>
+					<li>Mongoose</li>
+					<li>Passport.js</li>
+					<li>SocketIO</li>
+					<li>Sails</li>
+					<li>Seneca</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Databases</h4>
+				</div>
+				<ul class="keywords">
+					<li>MySQL/MariaDB</li>
+					<li>Posgres</li>
+					<li>MongoDB</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Testing</h4>
+				</div>
+				<ul class="keywords">
+					<li>Jasmine</li>
+					<li>Mocha</li>
+					<li>Jest</li>
+					<li>EsLint</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>DevOps</h4>
+				</div>
+				<ul class="keywords">
+					<li>Docker/Compose</li>
+					<li>Git</li>
+					<li>GitLab-CI</li>
+					<li>Travis-CI</li>
+					<li>Circle-CI</li>
+					<li>Heroku</li>
+					<li>Redis</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Linux Administration</h4>
+				</div>
+				<ul class="keywords">
+					<li>Bash scripting</li>
+					<li>SSH</li>
+					<li>makefile</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="languages" class="row">
+		<aside class="col-sm-3">
+			<h3>Languages</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<div class="language">
+					<strong>English</strong>
+				</div>
+				<div class="fluency">
+					Fluent
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="language">
+					<strong>German</strong>
+				</div>
+				<div class="fluency">
+					Conversational
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="language">
+					<strong>Spanish</strong>
+				</div>
+				<div class="fluency">
+					Conversational
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="language">
+					<strong>Macedonian</strong>
+				</div>
+				<div class="fluency">
+					Native speaker
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="interests" class="row">
+		<aside class="col-sm-3">
+			<h3>Interests</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Sports</h4>
+				</div>
+				<ul class="keywords">
+					<li>Bicycling</li>
+					<li>Kayaking</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Outdoors</h4>
+				</div>
+				<ul class="keywords">
+					<li>Hiking</li>
+					<li>Motor cycling</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+	
+
+	</div>
+	
+	</body>
+</html>
